@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.toolsqa.TestCases.LoginPageTest">
+        <methods>
+          <include name="extentreport"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.qa.toolsqa.TestCases.LoginPageTest -->
+      <class name="com.qa.toolsqa.TestCases.HomePageTest">
+        <methods>
+          <include name="extentreport"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+          <include name="verifyusername"/>
+        </methods>
+      </class> <!-- com.qa.toolsqa.TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
