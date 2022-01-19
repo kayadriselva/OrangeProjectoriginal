@@ -9,6 +9,7 @@
           <include name="setup"/>
           <include name="loginTest"/>
           <include name="teardown"/>
+          <include name="checkfail"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- com.qa.toolsqa.TestCases.LoginPageTest -->
